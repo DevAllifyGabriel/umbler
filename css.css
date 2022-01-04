@@ -1,0 +1,684 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: 	#F8F8FF;
+ 
+}
+
+#topo {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+}
+.LOGO {
+  font-family: 'Poppins';
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  
+  
+}
+.LOGO img{
+  width: 100px;
+  margin-top: -45px;
+  cursor: pointer;
+  
+  
+ 
+}
+.menu-primario {
+  margin-left: 170px;
+  margin-top: -30px;
+}
+.menu-primario a {
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6F7380;
+}
+.menu-secundario {
+  margin-top: -20px;
+  margin-right: 40px;
+  font-size: 16px;
+  margin-left: 1000px;
+
+}
+
+.menu-secundario a {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 20px;
+  
+ 
+}
+.TMNC {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  border: 1px solid #f0f4ff;
+  background: transparent;
+  color: #557CF2;
+}
+.VFSD {
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #557CF2;
+  background: #557CF2;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+/* FIM TOPO
+-----------------------------*/
+
+
+
+#container {
+  margin-top: 100px;
+  text-align: center;
+}
+.primeiro-texto {
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #31343B;
+
+}
+.search-box {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  background: #fff;
+  border: 1px solid #557CF2;
+  height:  40px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search-box:hover {
+  border: 2px solid #557CF2;
+}
+
+/*
+.search-btn {
+  color: #fff;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  background: #34495E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: gray;
+  font-size: 25px;
+  line-height: 40px;
+  width: 650px;
+  margin-left: 10px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+
+/*FIM CONTAINER
+-----------------------------*/
+
+
+
+#estensão  {
+  margin-top: 160px;
+ 
+}
+.BIN p{
+  display: inline;
+  font-size: 15.3px;
+  color: #B1B6C7;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  padding: 40px;
+}
+.TLD {
+  margin-left: 210px;
+}
+.TRO {
+  margin-left: 215px;
+}
+
+
+
+
+/* FIM ESTENSÃO
+-----------------------------*/
+
+
+#Meio-Fim {
+  height: 2000px;
+  width: 860px;
+  margin: 0 auto;
+  margin-top: 10px;
+ 
+ 
+}
+.tentativa {
+  border: 6px solid #5CB85C;
+  width: 875px;
+  height: 120px;
+  border-radius: 20px;
+}
+.rodape-TOP {
+  height: 40px;
+  background: #D0F5D0;
+  margin-top: 20px;
+  margin-left: px;
+  border-radius: 10px;
+  width: 875px;
+}
+.rodape-TOP p {
+  text-align: center;
+  font-size: 16px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #5CB85C;
+  font-weight: bold;
+  margin-top: -7px;
+}
+.rei p {
+  font-size: 25.6px;
+  color: #5CB85C;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+.money p {
+  float: right;
+  margin-top: -40px;
+  margin-right: 250px;
+  font-size: 18px;
+  color: #4E5159;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  
+}
+.Mano {
+  float: right;
+  margin-top: -90px;
+  margin-right: -80px;
+  padding: 6px;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 110px;
+  text-align: center;
+  border: 1px solid #5CB85C;
+  background: #5CB85C;
+  color: #FFFFFF;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.unico {
+  float: right;
+  margin-right: 328px;
+  font-size: 15.3px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #B1B6C7;
+  margin-top: -7px;
+}
+.ano {
+  float: right;
+  margin-right: -170px;
+  color: #B1B6C7;
+  margin-top: -40px;
+  font-size: 15.3px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+ 
+}
+
+.unico-segundario {
+  float: right;
+  margin-right: -290px;
+  font-size: 15.3px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #B1B6C7;
+  margin-top: -10px;
+}
+.BTT {
+  float: right;
+  margin-right: -257px;
+  margin-top: -10px;
+  font-size: 18px;
+  color: #4E5159;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.primaria {
+  margin-right: 100px;
+}
+
+
+.secundaria-putz {
+  height: 40px;
+  margin-top: 18px;
+  border-radius: 5px;
+  background: #fff;
+ 
+}
+.RTT {
+  margin-left: 50px;
+  margin-top: -25px;
+  color: #6F7380;
+  font-size: 18px;
+ 
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.RTT p {
+  margin-left: 73px;
+  margin-top: -24px;
+  color: #5CB85C;
+  font-size: 18px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.MEN {
+  color: #6F7380;
+  margin-left: 415px;
+  margin-top: -23px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+}
+.MEN p {
+  margin-left: 48px;
+  margin-top: -25px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+}
+
+.MOSCANDO {
+  color: #6F7380;
+  float: right;
+  margin-top: -23px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+  margin-right: 170px;
+}
+.MOSCANDO p {
+  margin-left: 48px;
+  margin-top: -25px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+
+}
+.fama {
+  float: right;
+  margin-right: 10px;
+  margin-top: -22px;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #557CF2;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 14pz;
+  background: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  text-align: center;
+  
+}
+.fama p {
+  margin-top: -5px;
+}
+
+.secundaria  {
+  height: 40px;
+  
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+.Drips {
+  width: 18px;
+  opacity: 70%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.final {
+  margin-top: -23px;
+  margin-bottom: 20%;
+  margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+#bipolar {
+  color: #000;
+  margin-top: 1380px;
+  margin-left: 20px;
+}
+.porco {
+  font-size: 22.4px;
+  color: #31343B;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+ 
+}
+.porco p {
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+  color: #6F7380;
+  margin-top: 10px;
+}
+
+.carinha {
+  font-size: 22.4px;
+  color: #31343B;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  margin-top: 100px;
+  
+}
+.carinha p {
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+  color: #6F7380;
+  margin-top: 10px;
+}
+
+.lux {
+  font-size: 22.4px;
+  color: #31343B;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  margin-top: -133px;
+  float: right;
+  margin-right: -20 px;
+}
+.lux p {
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+  color: #6F7380;
+  margin-top: 10px;
+}
+
+.avião {
+  font-size: 22.4px;
+  color: #31343B;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 40px;
+  border-radius: 10px;
+  float: right;
+  margin-top: -185px;
+  background: #d0f5d0!important;
+ margin-right: -80px;
+}
+.avião p {
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 18px;
+  color: #6F7380;
+  margin-top: 10px;
+}
+
+
+
+#sonho h2{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 56px;
+  color: #31343B;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.biju {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 19.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #557CF2  ;
+}
+.biju p {
+  font-weight: normal;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+
+}
+.familia-img img {
+  width: 800px;
+  margin-top: 35px;
+}
+.familia-img p {
+  margin-top: 20px;
+  font-size: 19.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  padding-top: 30px;
+  color: #4E5159;
+  font-weight: bold;
+}
+
+
+/* MEIO FIM 
+-----------------------------*/
+
+#infinito {
+  margin-top: 650px;
+  margin-left: 100px;
+}
+span {
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  font-size: 13.6px;
+  color: #A2B8FA;
+}
+.scot h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.scot a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+  
+  
+}
+
+
+.scot-primario {
+  margin-left: 180px;
+  margin-top: -175px;
+}
+.scot-primario h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  
+}
+.scot-primario a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+  
+  
+}
+
+
+.scot-secundario {
+  margin-left: 350px;
+  margin-top: -175px;
+}
+.scot-secundario  h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  
+}
+.scot-secundario  a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+  
+  
+}
+
+.scot-terceiro {
+  margin-left: 500px;
+  margin-top: -175px;
+}
+.scot-terceiro h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  
+}
+.scot-terceiro  a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+  
+  
+}
+
+.scot-quarto {
+  margin-left: 660px;
+  margin-top: -175px;
+}
+.scot-quarto h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  
+}
+.scot-quarto  a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+  
+  
+}
+
+.scot-quinto {
+  margin-left: 900px;
+  margin-top: -213px;
+}
+.scot-quinto h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  
+}
+.scot-quinto  a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+  
+  
+}
+
+.scot-sexto {
+  margin-top: 150px;
+}
+.scot-sexto h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.scot-sexto  a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+}
+
+.scot-setimo {
+  margin-left: 180px;
+  margin-top: -214px;
+}
+.scot-setimo h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.scot-setimo  a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+}
+
+.scot-oitavo {
+  margin-top: -214px;
+  margin-left: 350px;
+}
+.scot-oitavo h6 {
+  font-size: 17.6px;
+  color: #557CF2;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.scot-oitavo a {
+  font-size: 15.2px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #6F7380;
+  text-decoration: none;
+}
+
+
+#rodape {
+  height: 100px;
+  background: #F5F5F5;
+  bottom: 0;
+  margin-top: 50px;
+}
+.pee img{
+  width: 45px;
+  margin-left: 90px;
+  margin-top: 35px;
+}
+.caralho {
+  margin-left: 150px;
+  font-size: 15.3px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #557cf2;
+  margin-top: -28px;
+}
+
+.rodo{
+  margin-left: 330px;
+  font-size: 15.3px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #557cf2;
+  margin-top: -20px;
+}
+ .rodo a {
+  font-size: 15.3px;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  color: #557cf2;
+  text-decoration: none;
+  padding-left: 20px;
+ }
+
+
+
+
+
+
